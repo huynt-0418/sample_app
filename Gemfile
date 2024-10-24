@@ -29,6 +29,8 @@ gem "sassc-rails"
 
 gem "config"
 
+gem "bcrypt", "~> 3.1.7"
+
 group :development, :test do
   gem "debug", platforms: %i(mri mingw x64_mingw)
   gem "rubocop", "~> 1.26", require: false
