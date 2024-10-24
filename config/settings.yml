@@ -8,6 +8,10 @@ default: &default
     railsTutorial: "http://www.railstutorial.org"
     railsTutorialHelp: "http://www.railstutorial.org/help"
     railsTutorialBook: "http://www.railstutorial.org/book"
-
+  email:
+    format: "\\A[\\w+\\-.]+@[a-z\\d\\-.]+\\.[a-z]+\\z"
+    maxLength: 256
+  userName:
+    maxLength: 50
 development:
   <<: *default
