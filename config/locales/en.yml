@@ -53,3 +53,22 @@ en:
       body: "Get help on the Ruby on Rails Tutorial at the %{helpPage}. To get help on this sample app, see the <em>%{bookPage}</em> book."
     contact:
       hello: "Hello"
+    sign_up:
+      title: "Sign up"
+      create_account: "Create my account"
+      success_message: "Welcome to the Sample App!"
+    users:
+      not_found: "User not found"
+  activerecord:
+    models:
+      user: "User"
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password confirmation"
+  errors:
+    messages:
+      blank: "can't be blank"
+      invalid: "is invalid"
