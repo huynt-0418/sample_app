@@ -4,6 +4,7 @@ default: &default
     home: "http://localhost:3000/static_pages/home"
     help: "http://localhost:3000/static_pages/help"
     contact: "http://localhost:3000/static_pages/contact"
+  signup: "http://localhost:3000/signup"
   outsideLink:
     railsTutorial: "http://www.railstutorial.org"
     railsTutorialHelp: "http://www.railstutorial.org/help"

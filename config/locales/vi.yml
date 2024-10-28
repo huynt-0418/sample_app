@@ -22,3 +22,22 @@ vi:
       body: "Nhận sự trợ giúp trong %{helpPage}. Để xem trợ giúp cho ứng sample app này, hãy xem sách <em>%{bookPage}</em>."
     contact:
       hello: "Xin chào"
+    sign_up:
+      title: "Đăng ký"
+      create_account: "Tạo tài khoản của tôi"
+      success_message: "Chào mừng đến với Sample App!"
+    users:
+      not_found: "Không tìm thấy người dùng"
+  activerecord:
+    models:
+      user: "Người dùng"
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
+    errors:
+      messages:
+        blank: "không được để trống"
+        invalid: "không hợp lệ"
