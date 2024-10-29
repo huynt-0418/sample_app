@@ -40,6 +40,11 @@ en:
     help: "Help"
     login: "Log in"
     vietnamese: "Tiếng Việt"
+    users: "Users"
+    account: "Account"
+    profile: "Profile"
+    settings: "Settings"
+    log_out: "Log out"
   views:
     home:
       title: "Home"
@@ -59,6 +64,14 @@ en:
       success_message: "Welcome to the Sample App!"
     users:
       not_found: "User not found"
+    login:
+      title: "Log in"
+      login: "Log in"
+      new_user: "New user?"
+      sign_up: "Sign up now!"
+      password: "Password"
+      success_message: "Login successfully!"
+      error_message: "Invalid email/password combination"
   activerecord:
     models:
       user: "User"

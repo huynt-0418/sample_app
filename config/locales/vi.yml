@@ -9,6 +9,11 @@ vi:
     help: "Trợ giúp"
     login: "Đăng nhập"
     english: "English"
+    users: "Người dùng"
+    account: "Tài khoản"
+    profile: "Hồ sơ"
+    settings: "Cài đặt"
+    log_out: "Đăng xuất"
   views:
     home:
       title: "Trang chủ"
@@ -28,6 +33,14 @@ vi:
       success_message: "Chào mừng đến với Sample App!"
     users:
       not_found: "Không tìm thấy người dùng"
+    login:
+      title: "Đăng nhập"
+      login: "Đăng nhập"
+      new_user: "Người dùng mới?"
+      sign_up: "Đăng ký ngay!"
+      password: "Mật khẩu"
+      success_message: "Đăng nhập thành công!"
+      error_message: "Email/mật khẩu không hợp lệ"
   activerecord:
     models:
       user: "Người dùng"
