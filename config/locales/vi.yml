@@ -33,6 +33,23 @@ vi:
       success_message: "Chào mừng đến với Sample App!"
     users:
       not_found: "Không tìm thấy người dùng"
+      edit:
+        title: "Chỉnh sửa người dùng"
+        subtitle: "Cập nhật hồ sơ của bạn"
+        save_changes: "Lưu thay đổi"
+        change_avatar: "Thay đổi ảnh đại diện"
+      update:
+        success_message: "Hồ sơ đã được cập nhật"
+      please_log_in: "Vui lòng đăng nhập."
+      can_not_edit: "Bạn không thể chỉnh sửa tài khoản này."
+      index:
+        title: "Tất cả người dùng"
+        subtitle: "Danh sách tất cả người dùng"
+      destroy:
+        delete: "Xóa"
+        success_message: "Người dùng đã bị xóa"
+        fail_message: "Xóa thất bại"
+        confirm_delete: "Bạn có chắc chắn?"
     login:
       title: "Đăng nhập"
       login: "Đăng nhập"
