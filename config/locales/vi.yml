@@ -41,6 +41,7 @@ vi:
       password: "Mật khẩu"
       success_message: "Đăng nhập thành công!"
       error_message: "Email/mật khẩu không hợp lệ"
+      remember_me: "Ghi nhớ tôi trên thiết bị này"
   activerecord:
     models:
       user: "Người dùng"
