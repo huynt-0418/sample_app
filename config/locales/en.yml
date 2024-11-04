@@ -64,6 +64,23 @@ en:
       success_message: "Welcome to the Sample App!"
     users:
       not_found: "User not found"
+      edit:
+        title: "Edit user"
+        subtitle: "Update your profile"
+        save_changes: "Save changes"
+        change_avatar: "Change avatar"
+      update:
+        success_message: "Profile updated"
+      please_log_in: "Please log in."
+      can_not_edit: "You cannot edit this account."
+      index:
+        title: "All users"
+        subtitle: "Listing all users"
+      destroy:
+        delete: "Delete"
+        success_message: "User deleted"
+        fail_message: "Delete failed"
+        confirm_delete: "Are you sure?"
     login:
       title: "Log in"
       login: "Log in"

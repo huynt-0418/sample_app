@@ -14,5 +14,11 @@ default: &default
     maxLength: 256
   userName:
     maxLength: 50
+  password:
+    minLength: 6
+  user_pagination:
+    per_page: 10
+  avatar:
+    size: 50
 development:
   <<: *default
