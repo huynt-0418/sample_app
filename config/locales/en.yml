@@ -31,6 +31,7 @@
 
 en:
   title:
+    app: "Sample App"
     default: "Ruby on Rails Tutorial Sample App"
     home: "Home"
     help: "Help"
@@ -62,6 +63,9 @@ en:
       title: "Sign up"
       create_account: "Create my account"
       success_message: "Welcome to the Sample App!"
+      check_email: "Please check your email to activate your account."
+      success_activation: "Account activated!"
+      invalid_activation: "Invalid activation link"
     users:
       not_found: "User not found"
       edit:
@@ -90,6 +94,7 @@ en:
       success_message: "Login successfully!"
       error_message: "Invalid email/password combination"
       remember_me: "Remember me on this device"
+      account_not_activated: "Account not activated. Check your email for the activation link."
   activerecord:
     models:
       user: "User"
@@ -99,7 +104,14 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Password confirmation"
-  errors:
-    messages:
-      blank: "can't be blank"
-      invalid: "is invalid"
+    errors:
+      messages:
+        blank: "can't be blank"
+        invalid: "is invalid"
+  mailer:
+    user_mailer:
+      account_activation:
+        subject: "Account activation"
+        hello: "Hi %{username},"
+        body: "Welcome to the Sample App! Click on the link below to activate your account:"
+        activate: "Activate"

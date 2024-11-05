@@ -4,7 +4,12 @@ class SessionsController < ApplicationController
   def create
     user = User.find_by email: params.dig(:session, :email)&.downcase
     if user&.authenticate params.dig(:session, :password)
-      log_in_and_redirect user
+      if user.activated 
+        log_in_and_redirect user
+      else
+        flash[:warning] = t "views.login.account_not_activated"
+        redirect_to root_url, status: :see_other
+      end
     else
       flash.now[:danger] = t "views.login.error_message"
       render :new, status: :unprocessable_entity

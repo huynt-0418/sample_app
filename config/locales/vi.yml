@@ -1,5 +1,6 @@
 vi:
   title:
+    app: "Sample App"
     default: "Ruby on Rails Tutorial Sample App"
     home: "Trang chủ"
     help: "Trợ giúp"
@@ -31,6 +32,9 @@ vi:
       title: "Đăng ký"
       create_account: "Tạo tài khoản của tôi"
       success_message: "Chào mừng đến với Sample App!"
+      check_email: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản."
+      success_activation: "Tài khoản đã được kích hoạt!"
+      invalid_activation: "Link kích hoạt không hợp lệ"
     users:
       not_found: "Không tìm thấy người dùng"
       edit:
@@ -59,6 +63,7 @@ vi:
       success_message: "Đăng nhập thành công!"
       error_message: "Email/mật khẩu không hợp lệ"
       remember_me: "Ghi nhớ tôi trên thiết bị này"
+      account_not_activated: "Tài khoản chưa được kích hoạt. Hãy kiểm tra email của bạn để kích hoạt tài khoản."
   activerecord:
     models:
       user: "Người dùng"
@@ -72,3 +77,10 @@ vi:
       messages:
         blank: "không được để trống"
         invalid: "không hợp lệ"
+  mailer:
+    user_mailer:
+      account_activation:
+        subject: "Kích hoạt tài khoản"
+        hello: "Xin chào %{username},"
+        body: "Chào mừng bạn đến với Sample App! Hãy nhấn vào link bên dưới để kích hoạt tài khoản của bạn:"
+        activate: "Kích hoạt tài khoản"

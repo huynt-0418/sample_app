@@ -37,3 +37,4 @@ end
 gem "redis", "~> 4.0"
 gem "faker", "2.21.0"
 gem "pagy"
+gem "dotenv-rails"
