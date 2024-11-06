@@ -20,5 +20,7 @@ default: &default
     per_page: 10
   avatar:
     size: 50
+  password_reset:
+    expired: 2
 development:
   <<: *default

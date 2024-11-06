@@ -64,6 +64,20 @@ vi:
       error_message: "Email/mật khẩu không hợp lệ"
       remember_me: "Ghi nhớ tôi trên thiết bị này"
       account_not_activated: "Tài khoản chưa được kích hoạt. Hãy kiểm tra email của bạn để kích hoạt tài khoản."
+      forgot_password: "Quên mật khẩu?"
+    password_resets:
+      title: "Khôi phục mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      flash: 
+        email_sent: "Email đã được gửi với hướng dẫn khôi phục mật khẩu"
+        email_not_found: "Không tìm thấy email"
+        password_reset: "Mật khẩu đã được khôi phục"
+        expired_link: "Link khôi phục mật khẩu đã hết hạn"
+        user_not_found: "Không tìm thấy người dùng"
+        user_not_activated: "Tài khoản chưa được kích hoạt"
+    forgot_password: 
+      title: "Quên mật khẩu"
+      submit: "Gửi"    
   activerecord:
     models:
       user: "Người dùng"
@@ -84,3 +98,9 @@ vi:
         hello: "Xin chào %{username},"
         body: "Chào mừng bạn đến với Sample App! Hãy nhấn vào link bên dưới để kích hoạt tài khoản của bạn:"
         activate: "Kích hoạt tài khoản"
+      password_reset:
+        subject: "Khôi phục mật khẩu"
+        text: "Để khôi phục mật khẩu, hãy nhấn vào link bên dưới:"
+        reset: "Khôi phục mật khẩu"
+        expire: "Link này sẽ hết hạn trong 2h"
+        not_request: "Nếu bạn không yêu cầu đổi mật khẩu, hãy từ chối mail này và mật khẩu của bạn vẫn sẽ được giữ nguyên"
