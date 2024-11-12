@@ -23,6 +23,8 @@ en:
       linkTitle: "Ruby on Rails Tutorial"
       helpPage: "Rails Tutorial Help Page"
       bookPage: "Ruby on Rails Tutorial"
+      view_my_profile: "View my profile"
+      userMicroposts: "User Microposts"
     help:
       title: "Help"
       body: "Get help on the Ruby on Rails Tutorial at the %{helpPage}. To get help on this sample app, see the <em>%{bookPage}</em> book."
@@ -44,7 +46,6 @@ en:
         change_avatar: "Change avatar"
       update:
         success_message: "Profile updated"
-      please_log_in: "Please log in."
       can_not_edit: "You cannot edit this account."
       index:
         title: "All users"
@@ -54,6 +55,7 @@ en:
         success_message: "User deleted"
         fail_message: "Delete failed"
         confirm_delete: "Are you sure?"
+      microposts: "Microposts (%{count})"
     login:
       title: "Log in"
       login: "Log in"
@@ -78,6 +80,20 @@ en:
     forgot_password: 
       title: "Forgot password"
       submit: "Submit"
+    microposts:
+      success_create_message: "Micropost created!"
+      success_delete_message: "Micropost deleted"
+      fail_delete_message: "Delete failed"
+      invalid: "Invalid micropost"
+      image_format: "Please upload an image file"
+      image_size: "Image size should be less than 5MB"
+      delete: "Delete"
+      confirm_delete: "Are you sure?"
+      post: "Post"
+      form_placeholder: "Compose new micropost..."
+      posted_ago: "Posted %{time} ago"
+    flash:
+      please_log_in: "Please log in."
   activerecord:
     models:
       user: "User"

@@ -23,6 +23,8 @@ vi:
       linkTitle: "Hướng dẫn Ruby on Rails"
       helpPage: "Trang trợ giúp Rails Tutorial"
       bookPage: "Hướng dẫn Ruby on Rails"
+      view_my_profile: "Xem hồ sơ của tôi"
+      userMicroposts: "Bài viết của người dùng"
     help:
       title: "Trợ giúp"
       body: "Nhận sự trợ giúp trong %{helpPage}. Để xem trợ giúp cho ứng sample app này, hãy xem sách <em>%{bookPage}</em>."
@@ -44,7 +46,6 @@ vi:
         change_avatar: "Thay đổi ảnh đại diện"
       update:
         success_message: "Hồ sơ đã được cập nhật"
-      please_log_in: "Vui lòng đăng nhập."
       can_not_edit: "Bạn không thể chỉnh sửa tài khoản này."
       index:
         title: "Tất cả người dùng"
@@ -54,6 +55,7 @@ vi:
         success_message: "Người dùng đã bị xóa"
         fail_message: "Xóa thất bại"
         confirm_delete: "Bạn có chắc chắn?"
+      microposts: "Bài viết (%{count})"
     login:
       title: "Đăng nhập"
       login: "Đăng nhập"
@@ -77,7 +79,21 @@ vi:
         user_not_activated: "Tài khoản chưa được kích hoạt"
     forgot_password: 
       title: "Quên mật khẩu"
-      submit: "Gửi"    
+      submit: "Gửi"   
+    microposts:
+      success_create_message: "Bài viết đã được tạo" 
+      success_delete_message: "Bài viết đã được xóa"
+      fail_delete_message: "Xóa thất bại"
+      invalid: "Bài viết không hợp lệ"
+      image_format: "Vui lòng tải lên một tập tin ảnh"
+      image_size: "Kích thước ảnh không được vượt quá 5MB"
+      delete: "Xóa"
+      confirm_delete: "Bạn có chắc chắn?"
+      post: "Đăng bài"
+      form_placeholder: "Viết bài mới..."
+      posted_ago: "Đã đăng %{time} trước"
+    flash:
+      please_log_in: "Vui lòng đăng nhập"
   activerecord:
     models:
       user: "Người dùng"
@@ -104,3 +120,38 @@ vi:
         reset: "Khôi phục mật khẩu"
         expire: "Link này sẽ hết hạn trong 2h"
         not_request: "Nếu bạn không yêu cầu đổi mật khẩu, hãy từ chối mail này và mật khẩu của bạn vẫn sẽ được giữ nguyên"
+  datetime:
+    distance_in_words:
+      less_than_x_seconds:
+        one: "vài giây"
+        other: "vài giây"
+      x_seconds:
+        one: "1 giây"
+        other: "%{count} giây"
+      less_than_x_minutes:
+        one: "gần 1 phút"
+        other: "gần %{count} phút"
+      x_minutes:
+        one: "1 phút"
+        other: "%{count} phút"
+      about_x_hours:
+        one: "khoảng 1 giờ"
+        other: "khoảng %{count} giờ"
+      x_days:
+        one: "1 ngày"
+        other: "%{count} ngày"
+      about_x_months:
+        one: "khoảng 1 tháng"
+        other: "khoảng %{count} tháng"
+      x_months:
+        one: "1 tháng"
+        other: "%{count} tháng"
+      about_x_years:
+        one: "khoảng 1 năm"
+        other: "khoảng %{count} năm"
+      over_x_years:
+        one: "hơn 1 năm"
+        other: "hơn %{count} năm"
+      almost_x_years:
+        one: "gần 1 năm"
+        other: "gần %{count} năm"

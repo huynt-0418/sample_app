@@ -4,12 +4,14 @@ class UsersController < ApplicationController
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
 
-  def show; end
+  def show
+    @pagy, @microposts = pagy @user.microposts.newest, items: Settings.default.page_10
+  end
 
   def index
     @pagy, @users = pagy(
       User.all,
-      items: Settings.default.user_pagination.per_page
+      items: Settings.default.page_10
     )
   end
 
@@ -59,14 +61,6 @@ class UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit(User::USER_PARAMS)
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "views.users.please_log_in"
-    redirect_to login_url
   end
 
   def correct_user
