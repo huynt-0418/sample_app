@@ -35,9 +35,9 @@ group :test do
   gem "webdrivers"
 end
 
+gem "active_storage_validations", "0.9.8"
 gem "faker", "2.21.0"
+gem "i18n-js"
+gem "image_processing", "1.12.2"
 gem "pagy"
 gem "redis", "~> 4.0"
-gem "image_processing", "1.12.2"
-gem "active_storage_validations", "0.9.8"
-gem "i18n-js"

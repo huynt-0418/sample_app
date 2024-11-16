@@ -56,6 +56,10 @@ vi:
         fail_message: "Xóa thất bại"
         confirm_delete: "Bạn có chắc chắn?"
       microposts: "Bài viết (%{count})"
+      following: "Đang theo dõi"
+      followers: "Người theo dõi"
+      follow: "Theo dõi"
+      unfollow: "Bỏ theo dõi"
     login:
       title: "Đăng nhập"
       login: "Đăng nhập"
