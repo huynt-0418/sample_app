@@ -9,7 +9,8 @@ class MicropostsController < ApplicationController
       flash[:success] = t "views.microposts.success_create_message"
       redirect_to root_url
     else
-      @pagy, @feed_items = pagy current_user.feed, items: Settings.default.page_10
+      @pagy, @feed_items = pagy current_user.feed,
+                                items: Settings.default.page_10
       render "static_pages/home", status: :unprocessable_entity
     end
   end
@@ -20,7 +21,7 @@ class MicropostsController < ApplicationController
     else
       flash[:danger] = t "views.microposts.fail_delete_message"
     end
-    redirect_to request.referrer || root_url
+    redirect_to request.referer || root_url
   end
 
   private

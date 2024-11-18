@@ -56,6 +56,10 @@ en:
         fail_message: "Delete failed"
         confirm_delete: "Are you sure?"
       microposts: "Microposts (%{count})"
+      following: "Following"
+      followers: "Followers"
+      follow: "Follow"
+      unfollow: "Unfollow"
     login:
       title: "Log in"
       login: "Log in"
